@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx
 
 # Bring in the microbot
 COPY html /usr/share/nginx/html
